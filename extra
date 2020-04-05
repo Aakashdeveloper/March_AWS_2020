@@ -1,0 +1,8 @@
+A user has created an application which will be hosted on EC2. The application makes calls to DynamoDB to fetch certain data. The application is using the
+DynamoDB SDK to connect with from the EC2 instance. Which of the below mentioned statements is true with respect to the best practice for security in this
+scenario?
+A. The user should create an IAM user with DynamoDB access and use its credentials within the application to connect with DynamoDB
+B. The user should attach an IAM role with DynamoDB access to the EC2 instance
+C. The user should create an IAM role, which has EC2 access so that it will allow deploying the application
+D. The user should create an IAM user with DynamoDB and EC2 acces
+E. Attach the user with the application so that it does not use the root account credentials
